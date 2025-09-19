@@ -1,0 +1,56 @@
+:root {
+  --color-bg: #fff;
+  --color-fg: #000000;
+
+  --radius-logo: 7px;
+
+  --main-font: Verdana, Geneva, sans-serif;;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+p {
+  margin: 0;
+}
+
+.header_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_main_left {
+  display: flex;
+  gap: 20px;
+}
+
+.header_main_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.header_main_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav_logo {
+  display: flex;
+}
+
+.logo_img {
+  border-radius: var(--radius-logo);
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 2.5rem;
+}
